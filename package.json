@@ -1,5 +1,5 @@
 {
-  "name": "react-responsive-grid",
+  "name": "@mjaakko/react-responsive-grid",
   "description": "Power tools for responsive layouts with React",
   "version": "0.3.4",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
@@ -39,7 +39,7 @@
   "directories": {
     "example": "examples"
   },
-  "homepage": "https://github.com/KyleAMathews/react-responsive-grid",
+  "homepage": "https://github.com/mjaakko/react-responsive-grid",
   "keywords": [
     "960",
     "fluid",
@@ -59,7 +59,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KyleAMathews/react-responsive-grid.git"
+    "url": "https://github.com/mjaakko/react-responsive-grid.git"
   },
   "scripts": {
     "test-watch": "NODE_ENV=test node_modules/.bin/mocha -w --recursive --compilers coffee:coffee-script/register -R mocha-unfunk-reporter",
