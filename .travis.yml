@@ -1,4 +1,10 @@
 language: node_js
-
 node_js:
-  - "0.10"
+- '0.10'
+deploy:
+  provider: npm
+  email: "jaakko.malkki234@gmail.com"
+  api_key:
+    secure: xA2flB1qprEodiK7bgIKTdI6Xswx22TOezh4rnXkVAJWncpoHFJw1gvm9kBTIFqAMMqootfgM9Q75D3pcWeB3p2wCTqz3PSvy0UK13G6RvEDvyNRNYM1apGK9vBK+qEgiDre5xpPhEmiUA2zeEhn5Hel/7dxe68gSmb7UlXYLMI+MLlLthZ9YIK4WEySqYzV3zKEJJvfXUc66jpoFVc7n7lCEUQG2AephsmJ6dVLaPXARr2upgRVJT33/7tY+RjDiVzq9IJO87DdPsRLeKtDwUMaduQLQkCa9C1i1WDlOjIQDjpGzKIO6aJjBO8lG9sbL0QC5I1DuThHfbnOCd01NwBksDWtDAmIBG3ybahTiq5qT8NeSKImLtw/0wnREHnqyJK8fOIk/HXk3Ns8wXi3mDoYhkf3wWMIUorwQpRA/13Q9KUP4hO5h1tJzgXGT6CGEvJZ8y/ggjUGjAlWeU/EHbYr35Ff0+77ulslAcaDTAS7vS9M0TuxuK56/XKK9gmaz4AOdXBK724ppPPSF4xSknxplrW8qVAdWNAVnB/eVdD6bYxyKlmqD/fCrfmmjfc9Du85BHl6IlsxizC//PcuzKB07sN/BO6TFsNsdB39JYsQWxsdTyUY0XtXEIKw8sXZtKN9+estEEJtpvmCxudwiG15W8FCUMeV7DqUbgDmp44=
+  on:
+    tags: true
