@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-- '0.10'
+- '8.10.0'
+before_deploy: "make build && sed -i '/dist/d' ./.gitignore"
 deploy:
   provider: npm
   email: "jaakko.malkki234@gmail.com"

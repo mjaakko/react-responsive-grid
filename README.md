@@ -1,5 +1,5 @@
 [![Build
-Status](https://img.shields.io/travis/mjaakko/react-responsive-grid/master.svg?style=flat-square)](http://travis-ci.org/KyleAMathews/react-responsive-grid)
+Status](https://img.shields.io/travis/mjaakko/react-responsive-grid/master.svg?style=flat-square)](http://travis-ci.org/mjaakko/react-responsive-grid)
 
 # react-responsive-grid
 Power tools for building responsive layouts with React.
